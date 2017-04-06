@@ -1,0 +1,15 @@
+button {
+	color: white;
+	background-color: $red;
+	font-size: 1.2em;
+	padding: 10px 16px;
+	display: inline-block;
+	cursor: pointer;
+    border: none;
+	margin: 10px;
+	transition: background-color 0.2s;
+	&:hover {
+		background-color: $darkRed;
+		transition: background-color 0.2s;
+	}
+}
